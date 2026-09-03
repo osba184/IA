@@ -1,0 +1,134 @@
+{
+  "info": {
+    "id": "ses_f996e8f77ffe2srswznVg81KY6",
+    "slug": "crisp-harbor",
+    "projectID": "global",
+    "directory": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+    "path": "Users/oscar.ballester.ext/Documents/Default Project",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 7028,
+      "output": 170,
+      "reasoning": 0,
+      "cache": {
+        "read": 1792,
+        "write": 0
+      }
+    },
+    "title": "Incident timeline: phishing breach response",
+    "agent": "build",
+    "model": {
+      "id": "big-pickle",
+      "providerID": "opencode",
+      "variant": "default"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1788427202696,
+      "updated": 1788427206057
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "id": "msg_066917113001LPjVg4m79v4eIP",
+        "sessionID": "ses_f996e8f77ffe2srswznVg81KY6",
+        "role": "user",
+        "time": {
+          "created": 1788427202875
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_066917114001ZHhgPqQwxlljX3",
+          "sessionID": "ses_f996e8f77ffe2srswznVg81KY6",
+          "messageID": "msg_066917113001LPjVg4m79v4eIP",
+          "type": "text",
+          "text": "On March 15, 2024, a multinational technology company detected unusual activity within its internal network. Security analysts discovered that unauthorized users had gained access to several employee accounts through a phishing campaign. The attackers attempted to exfiltrate customer records and confidential business documents.\rThe company immediately isolated affected systems, reset compromised credentials, and launched an internal investigation. External cybersecurity experts were hired to assess the scope of the breach and recommend improvements to existing security measures.\r\nAlthough the company stated that no financial information was stolen, it notified regulators and impacted customers as a precaution. The incident highlighted the importance of employee awareness training, strong authentication mechanisms, and continuous monitoring of network activity.                                                                  Make a timeline events of the incident in the text"
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "msg_0669171530019CqbXeZ10UcPXY",
+        "sessionID": "ses_f996e8f77ffe2srswznVg81KY6",
+        "role": "assistant",
+        "time": {
+          "created": 1788427202899,
+          "completed": 1788427206050
+        },
+        "parentID": "msg_066917113001LPjVg4m79v4eIP",
+        "modelID": "big-pickle",
+        "providerID": "opencode",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8990,
+          "input": 7028,
+          "output": 170,
+          "reasoning": 0,
+          "cache": {
+            "read": 1792,
+            "write": 0
+          }
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_06691773e00131XyInfRbz95mQ",
+          "sessionID": "ses_f996e8f77ffe2srswznVg81KY6",
+          "messageID": "msg_0669171530019CqbXeZ10UcPXY",
+          "type": "step-start"
+        },
+        {
+          "id": "prt_066917742001Ysi5NDkWfHZ8oe",
+          "sessionID": "ses_f996e8f77ffe2srswznVg81KY6",
+          "messageID": "msg_0669171530019CqbXeZ10UcPXY",
+          "type": "text",
+          "text": "Timeline of events:\n\n- **Phishing campaign**: Unauthorized users gained access to several employee accounts through a phishing campaign.\n- **Unauthorized access detected**: Security analysts discovered unusual activity within the internal network.\n- **Attempted exfiltration**: Attackers attempted to exfiltrate customer records and confidential business documents.\n- **Isolation & containment**: The company isolated affected systems and reset compromised credentials.\n- **Launch of internal investigation**: The company launched an internal investigation.\n- **External assessment**: Cybersecurity experts were hired to assess the scope of the breach and recommend security improvements.\n- **Regulator & customer notification**: The company notified regulators and impacted customers as a precaution (stated no financial information was stolen).\n- **Lessons learned / follow-up**: Incident highlighted need for employee awareness training, strong authentication, and continuous network monitoring.",
+          "time": {
+            "start": 1788427204418,
+            "end": 1788427206042
+          }
+        },
+        {
+          "id": "prt_066917d9e001wst06szem2M1wf",
+          "sessionID": "ses_f996e8f77ffe2srswznVg81KY6",
+          "messageID": "msg_0669171530019CqbXeZ10UcPXY",
+          "type": "step-finish",
+          "reason": "stop",
+          "cost": 0,
+          "tokens": {
+            "total": 8990,
+            "input": 7028,
+            "output": 170,
+            "reasoning": 0,
+            "cache": {
+              "read": 1792,
+              "write": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

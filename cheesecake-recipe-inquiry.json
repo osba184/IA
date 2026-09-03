@@ -1,0 +1,145 @@
+{
+  "info": {
+    "id": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+    "slug": "proud-orchid",
+    "projectID": "global",
+    "directory": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+    "path": "Users/oscar.ballester.ext/Documents/Default Project",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 259,
+      "output": 193,
+      "reasoning": 0,
+      "cache": {
+        "read": 8512,
+        "write": 0
+      }
+    },
+    "title": "Cheesecake recipe inquiry",
+    "agent": "build",
+    "model": {
+      "id": "big-pickle",
+      "providerID": "opencode",
+      "variant": "default"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1788428152153,
+      "updated": 1788428159272
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "id": "msg_0669fedd8001JTQbevcDr3CHfN",
+        "sessionID": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+        "role": "user",
+        "time": {
+          "created": 1788428152311
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_0669fedd8002s37T5xa8sE3hLV",
+          "sessionID": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+          "messageID": "msg_0669fedd8001JTQbevcDr3CHfN",
+          "type": "text",
+          "text": "Ingredients\r600 g of cream cheese, like Philadelphia\r\n200 g of sugar\r\n4 medium eggs\r\n200 ml of heavy cream (35% fat)\r\n1 tsp vanilla extract or lemon zest\r\n1 tbsp wheat flour or cornstarch\r\nOptional: red berry jam for serving\r\n\r\nPreparation\r\nPreheat the oven to 190 °C (375 °F) with top and bottom heat. Line a 22 cm springform pan with parchment paper.\r\n\r\nBeat the cream cheese with the sugar until smooth. Add the eggs one at a time.\r\n\r\nStir in the cream, vanilla/zest, and sifted flour. Mix until you get a smooth cream.\r\n\r\nPour into the prepared pan and bake for 50–55 minutes, until the top is golden and the center is slightly wobbly.\r\n\r\nLet it cool in the turned-off oven with the door slightly open. Refrigerate for at least 4 hours before serving.\r\n\r\nServe with red berry jam or fresh fruit.                                                                                                                                     According to these ingredients and how it's prepared, what is the recipe for?"
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "msg_0669fee230014ecjtNr15nRY2e",
+        "sessionID": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+        "role": "assistant",
+        "time": {
+          "created": 1788428152355,
+          "completed": 1788428159263
+        },
+        "parentID": "msg_0669fedd8001JTQbevcDr3CHfN",
+        "modelID": "big-pickle",
+        "providerID": "opencode",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8964,
+          "input": 259,
+          "output": 193,
+          "reasoning": 0,
+          "cache": {
+            "read": 8512,
+            "write": 0
+          }
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_0669ff4530019XopEgxxWNCvq9",
+          "sessionID": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+          "messageID": "msg_0669fee230014ecjtNr15nRY2e",
+          "type": "step-start"
+        },
+        {
+          "id": "prt_0669ff49300199qEFTCAYki3BO",
+          "sessionID": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+          "messageID": "msg_0669fee230014ecjtNr15nRY2e",
+          "type": "reasoning",
+          "text": "The user is asking about a recipe based on the ingredients and preparation method described. Let me analyze this.\n\nThe ingredients and preparation method describe a cheesecake recipe. Specifically, it's a New York style cheesecake or a classic baked cheesecake.",
+          "time": {
+            "start": 1788428154003,
+            "end": 1788428155309
+          }
+        },
+        {
+          "id": "prt_0669ff9b1001YY34TJxzURrY2A",
+          "sessionID": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+          "messageID": "msg_0669fee230014ecjtNr15nRY2e",
+          "type": "text",
+          "text": "**Cheesecake**\n\nThe ingredients and preparation method you described are for a classic **baked cheesecake**, specifically a **New York style cheesecake**.\n\nKey characteristics that identify it:\n- Cream cheese as the main ingredient\n- Sugar and eggs as binders\n- Heavy cream for richness\n- Vanilla/lemon for flavor\n- Flour or cornstarch as a stabilizer\n- Baking in a water bath or low temperature\n- Chilling for several hours before serving\n\nThis is a traditional baked cheesecake recipe, not a no-bake version. The baking method and the cooling process (in the turned-off oven) are typical for achieving a smooth, creamy texture without cracks.",
+          "time": {
+            "start": 1788428155314,
+            "end": 1788428159244
+          }
+        },
+        {
+          "id": "prt_066a00912001Ddaz1IYNT6Y4I8",
+          "sessionID": "ses_f996012a7ffeHU31Ga7EPwFG9Z",
+          "messageID": "msg_0669fee230014ecjtNr15nRY2e",
+          "type": "step-finish",
+          "reason": "stop",
+          "cost": 0,
+          "tokens": {
+            "total": 8964,
+            "input": 259,
+            "output": 193,
+            "reasoning": 0,
+            "cache": {
+              "read": 8512,
+              "write": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

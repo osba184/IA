@@ -1,0 +1,146 @@
+{
+  "info": {
+    "id": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+    "slug": "calm-wizard",
+    "projectID": "global",
+    "directory": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+    "path": "Users/oscar.ballester.ext/Documents/Default Project",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 8593,
+      "output": 102,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "title": "Extracting 3 keywords from tourism text",
+    "agent": "build",
+    "model": {
+      "id": "big-pickle",
+      "providerID": "opencode",
+      "variant": "default"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1788426986037,
+      "updated": 1788426991929,
+      "archived": 1788428401269
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "id": "msg_0668e22d9001xNtWvTxB44nP0H",
+        "sessionID": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+        "role": "user",
+        "time": {
+          "created": 1788426986259
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_0668e22db001JgwcP5Pb5zn8wk",
+          "sessionID": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+          "messageID": "msg_0668e22d9001xNtWvTxB44nP0H",
+          "type": "text",
+          "text": "Tourism contributes significantly to the economy of many countries. Popular destinations attract millions of visitors each year, creating jobs and supporting local businesses such as hotels, restaurants, and transportation services. Extract the 3 most important keywords from the text."
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "msg_0668e233a001CI9n5w4ZwkAujj",
+        "sessionID": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+        "role": "assistant",
+        "time": {
+          "created": 1788426986298,
+          "completed": 1788426991923
+        },
+        "parentID": "msg_0668e22d9001xNtWvTxB44nP0H",
+        "modelID": "big-pickle",
+        "providerID": "opencode",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8695,
+          "input": 8593,
+          "output": 102,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_0668e3338001GRxKEC1teF7K1d",
+          "sessionID": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+          "messageID": "msg_0668e233a001CI9n5w4ZwkAujj",
+          "type": "step-start"
+        },
+        {
+          "id": "prt_0668e3379001JTuHk4rVN86s0w",
+          "sessionID": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+          "messageID": "msg_0668e233a001CI9n5w4ZwkAujj",
+          "type": "reasoning",
+          "text": "The user wants me to extract the 3 most important keywords from the provided text about tourism.\n\nThe text is: \"Tourism contributes significantly to the economy of many countries. Popular destinations attract millions of visitors each year, creating jobs and supporting local businesses such as hotels, restaurants, and transportation services.\"\n\nThe 3 most important keywords would be:\n1. Tourism\n2. Economy\n3. Destinations",
+          "time": {
+            "start": 1788426990457,
+            "end": 1788426991641
+          }
+        },
+        {
+          "id": "prt_0668e381c0011HEDHIIjf5BVw1",
+          "sessionID": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+          "messageID": "msg_0668e233a001CI9n5w4ZwkAujj",
+          "type": "text",
+          "text": "1. **Tourism**\n2. **Economy**\n3. **Destinations**",
+          "time": {
+            "start": 1788426991644,
+            "end": 1788426991916
+          }
+        },
+        {
+          "id": "prt_0668e392f001Hs7aAqUTVLTKQd",
+          "sessionID": "ses_f9971ddcaffeTEO0Mgr45opFTG",
+          "messageID": "msg_0668e233a001CI9n5w4ZwkAujj",
+          "type": "step-finish",
+          "reason": "stop",
+          "cost": 0,
+          "tokens": {
+            "total": 8695,
+            "input": 8593,
+            "output": 102,
+            "reasoning": 0,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

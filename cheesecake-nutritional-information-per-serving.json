@@ -1,0 +1,145 @@
+{
+  "info": {
+    "id": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+    "slug": "shiny-circuit",
+    "projectID": "global",
+    "directory": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+    "path": "Users/oscar.ballester.ext/Documents/Default Project",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 62,
+      "output": 847,
+      "reasoning": 0,
+      "cache": {
+        "read": 8704,
+        "write": 0
+      }
+    },
+    "title": "Cheesecake nutritional information per serving",
+    "agent": "build",
+    "model": {
+      "id": "big-pickle",
+      "providerID": "opencode",
+      "variant": "default"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1788428219490,
+      "updated": 1788428232112
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "id": "msg_066a0f4de001rQhCSJrBJxPjXP",
+        "sessionID": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+        "role": "user",
+        "time": {
+          "created": 1788428219646
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_066a0f4df001b8rHNrDJLRuf07",
+          "sessionID": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+          "messageID": "msg_066a0f4de001rQhCSJrBJxPjXP",
+          "type": "text",
+          "text": "Ingredients\r600 g of cream cheese, like Philadelphia\r\n200 g of sugar\r\n4 medium eggs\r\n200 ml of heavy cream (35% fat)\r\n1 tsp vanilla extract or lemon zest\r\n1 tbsp wheat flour or cornstarch\r\nOptional: red berry jam for serving\r\n\r\nPreparation\r\nPreheat the oven to 190 °C (375 °F) with top and bottom heat. Line a 22 cm springform pan with parchment paper.\r\n\r\nBeat the cream cheese with the sugar until smooth. Add the eggs one at a time.\r\n\r\nStir in the cream, vanilla/zest, and sifted flour. Mix until you get a smooth cream.\r\n\r\nPour into the prepared pan and bake for 50–55 minutes, until the top is golden and the center is slightly wobbly.\r\n\r\nLet it cool in the turned-off oven with the door slightly open. Refrigerate for at least 4 hours before serving.\r\n\r\nServe with red berry jam or fresh fruit.                                                                                                                                     Tell me the nutritional information of this cheesecake per serving"
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "msg_066a0f50f001lfNfibrAgTqtda",
+        "sessionID": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+        "role": "assistant",
+        "time": {
+          "created": 1788428219663,
+          "completed": 1788428232099
+        },
+        "parentID": "msg_066a0f4de001rQhCSJrBJxPjXP",
+        "modelID": "big-pickle",
+        "providerID": "opencode",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 9613,
+          "input": 62,
+          "output": 847,
+          "reasoning": 0,
+          "cache": {
+            "read": 8704,
+            "write": 0
+          }
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_066a0fcc3001yIHZbqgpw910LG",
+          "sessionID": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+          "messageID": "msg_066a0f50f001lfNfibrAgTqtda",
+          "type": "step-start"
+        },
+        {
+          "id": "prt_066a0fd16001Mt7beNojWfpa7o",
+          "sessionID": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+          "messageID": "msg_066a0f50f001lfNfibrAgTqtda",
+          "type": "reasoning",
+          "text": "The user is asking about nutritional information for a cheesecake recipe. Let me calculate this based on the ingredients listed.\n\nLet me break down the nutritional content based on standard values:\n\n**Ingredients:**\n- 600 g cream cheese (Philadelphia)\n- 200 g sugar\n- 4 medium eggs\n- 200 ml heavy cream (35% fat)\n- 1 tsp vanilla extract\n- 1 tbsp wheat flour\n\n**Approximate nutritional values per ingredient:**\n\n1. Cream cheese 600g (full fat):\n   - Calories: ~340 kcal per 100g × 6 = 2,040 kcal\n   - Fat: ~34g per 100g × 6 = 204g\n   - Protein: ~6g per 100g × 6 = 36g\n   - Carbs: ~4g per 100g × 6 = 24g\n\n2. Sugar 200g:\n   - Calories: 387 kcal per 100g × 2 = 774 kcal\n   - Carbs: 100g × 2 = 200g\n\n3. Eggs 4 medium (~60g each = 240g):\n   - Calories: ~155 kcal per 100g × 2.4 = 372 kcal\n   - Fat: ~11g per 100g × 2.4 = 26g\n   - Protein: ~13g per 100g × 2.4 = 31g\n   - Carbs: ~1g per 100g × 2.4 = 2.4g\n\n4. Heavy cream 200ml (~208g at 35% fat):\n   - Calories: ~340 kcal per 100g × 2 = 680 kcal\n   - Fat: ~35g per 100g × 2 = 70g\n   - Protein: ~2g per 100g × 2 = 4g\n   - Carbs: ~3g per 100g × 2 = 6g\n\n5. Vanilla extract 1 tsp (~5ml):\n   - Calories: ~12 kcal\n   \n6. Flour 1 tbsp (~8g):\n   - Calories: ~30 kcal\n   - Carbs: ~6g\n\n**TOTALS for entire cake:**\n- Calories: ~3,908 kcal\n- Fat: ~300g\n- Protein: ~71g\n- Carbs: ~238g\n\nIf sliced into 12 servings, each piece would contain roughly 326 calories, 25g of fat, 6g of protein, and 20g of carbs. With 10 servings, the per-serving values increase to about 391 calories, 30g of fat, 7g of protein, and 24g of carbs.",
+          "time": {
+            "start": 1788428221718,
+            "end": 1788428228911
+          }
+        },
+        {
+          "id": "prt_066a1193200125XDXpAfh7FxDm",
+          "sessionID": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+          "messageID": "msg_066a0f50f001lfNfibrAgTqtda",
+          "type": "text",
+          "text": "## Nutritional Information per Serving\n\n**Based on 12 servings:**\n\n| Nutrient | Amount |\n|----------|--------|\n| Calories | ~325 kcal |\n| Total Fat | ~25 g |\n| Saturated Fat | ~15 g |\n| Carbohydrates | ~20 g |\n| Sugars | ~19 g |\n| Protein | ~6 g |\n| Fiber | ~0 g |\n| Sodium | ~250 mg |\n\n**Notes:**\n- Most calories come from cream cheese and heavy cream (fat), plus sugar\n- The saturated fat is high due to cream cheese and heavy cream\n- Without the optional jam, sugar content is lower; with jam, add ~5–10 g carbs per serving\n- This is a rough estimate; actual values vary by brand of cream cheese and cream",
+          "time": {
+            "start": 1788428228914,
+            "end": 1788428232080
+          }
+        },
+        {
+          "id": "prt_066a125960010x7IXrEV2dsfPf",
+          "sessionID": "ses_f995f0b9dffeRba6ow5BQAmCcg",
+          "messageID": "msg_066a0f50f001lfNfibrAgTqtda",
+          "type": "step-finish",
+          "reason": "stop",
+          "cost": 0,
+          "tokens": {
+            "total": 9613,
+            "input": 62,
+            "output": 847,
+            "reasoning": 0,
+            "cache": {
+              "read": 8704,
+              "write": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

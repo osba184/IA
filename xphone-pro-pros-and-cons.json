@@ -1,0 +1,145 @@
+{
+  "info": {
+    "id": "ses_f996b56d7ffeCUvi29qGDbn862",
+    "slug": "neon-engine",
+    "projectID": "global",
+    "directory": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+    "path": "Users/oscar.ballester.ext/Documents/Default Project",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 155,
+      "output": 85,
+      "reasoning": 0,
+      "cache": {
+        "read": 8512,
+        "write": 0
+      }
+    },
+    "title": "XPhone Pro Pros and Cons",
+    "agent": "build",
+    "model": {
+      "id": "big-pickle",
+      "providerID": "opencode",
+      "variant": "default"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1788427413800,
+      "updated": 1788427418381
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "id": "msg_06694a9c1001WOk4jbRW1rbi64",
+        "sessionID": "ses_f996b56d7ffeCUvi29qGDbn862",
+        "role": "user",
+        "time": {
+          "created": 1788427413996
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_06694a9c2001iVRZS25gFtY9IR",
+          "sessionID": "ses_f996b56d7ffeCUvi29qGDbn862",
+          "messageID": "msg_06694a9c1001WOk4jbRW1rbi64",
+          "type": "text",
+          "text": "The XPhone Pro was released earlier this year and quickly attracted attention due to its advanced camera system and long battery life. Many users praised the device's performance, noting that applications launch quickly and multitasking is smooth.\rHowever, some customers reported concerns regarding the price, arguing that competing smartphones offer similar features at a lower cost. Others mentioned that while the hardware is impressive, the software interface can be difficult for new users to navigate.\r\nOverall, customer reviews have been largely positive, with most buyers expressing satisfaction with the phone's reliability and premium design.                                                                                                                                    Do the pros and cons of XPhone Pro"
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "msg_06694aa04001HrXGimJOxjJh1b",
+        "sessionID": "ses_f996b56d7ffeCUvi29qGDbn862",
+        "role": "assistant",
+        "time": {
+          "created": 1788427414020,
+          "completed": 1788427418368
+        },
+        "parentID": "msg_06694a9c1001WOk4jbRW1rbi64",
+        "modelID": "big-pickle",
+        "providerID": "opencode",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8752,
+          "input": 155,
+          "output": 85,
+          "reasoning": 0,
+          "cache": {
+            "read": 8512,
+            "write": 0
+          }
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_06694b5ed001EkOCNix35fafED",
+          "sessionID": "ses_f996b56d7ffeCUvi29qGDbn862",
+          "messageID": "msg_06694aa04001HrXGimJOxjJh1b",
+          "type": "step-start"
+        },
+        {
+          "id": "prt_06694b6360019o5D7EVyd8VRAy",
+          "sessionID": "ses_f996b56d7ffeCUvi29qGDbn862",
+          "messageID": "msg_06694aa04001HrXGimJOxjJh1b",
+          "type": "reasoning",
+          "text": "The user wants a summary of the pros and cons of the XPhone Pro based on the provided text.",
+          "time": {
+            "start": 1788427417142,
+            "end": 1788427417477
+          }
+        },
+        {
+          "id": "prt_06694b789001EtUxUVwIBJW286",
+          "sessionID": "ses_f996b56d7ffeCUvi29qGDbn862",
+          "messageID": "msg_06694aa04001HrXGimJOxjJh1b",
+          "type": "text",
+          "text": "Based on the text:\n\n**Pros:**\n- Advanced camera system\n- Long battery life\n- Fast app launch and smooth multitasking\n- Reliable performance\n- Premium design\n\n**Cons:**\n- High price compared to competitors with similar features\n- Software interface can be difficult for new users to navigate",
+          "time": {
+            "start": 1788427417481,
+            "end": 1788427418350
+          }
+        },
+        {
+          "id": "prt_06694baf5001ZajFREiWY1kExy",
+          "sessionID": "ses_f996b56d7ffeCUvi29qGDbn862",
+          "messageID": "msg_06694aa04001HrXGimJOxjJh1b",
+          "type": "step-finish",
+          "reason": "stop",
+          "cost": 0,
+          "tokens": {
+            "total": 8752,
+            "input": 155,
+            "output": 85,
+            "reasoning": 0,
+            "cache": {
+              "read": 8512,
+              "write": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

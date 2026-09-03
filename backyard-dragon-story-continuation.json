@@ -1,0 +1,145 @@
+{
+  "info": {
+    "id": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+    "slug": "crisp-falcon",
+    "projectID": "global",
+    "directory": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+    "path": "Users/oscar.ballester.ext/Documents/Default Project",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 57,
+      "output": 393,
+      "reasoning": 0,
+      "cache": {
+        "read": 8512,
+        "write": 0
+      }
+    },
+    "title": "Backyard dragon story continuation",
+    "agent": "build",
+    "model": {
+      "id": "big-pickle",
+      "providerID": "opencode",
+      "variant": "default"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1788428267602,
+      "updated": 1788428278950
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "id": "msg_066a1b0e3001V65c4bKj8xGAUO",
+        "sessionID": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+        "role": "user",
+        "time": {
+          "created": 1788428267779
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_066a1b0e4001Sof6PNtE02SJo4",
+          "sessionID": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+          "messageID": "msg_066a1b0e3001V65c4bKj8xGAUO",
+          "type": "text",
+          "text": "I never expected to find a dragon in my backyard...                                                                                                           Continue the history with the text that I wrote               "
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "msg_066a1b111001rGTwEl0TB0G4HM",
+        "sessionID": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+        "role": "assistant",
+        "time": {
+          "created": 1788428267793,
+          "completed": 1788428278948
+        },
+        "parentID": "msg_066a1b0e3001V65c4bKj8xGAUO",
+        "modelID": "big-pickle",
+        "providerID": "opencode",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\Users\\oscar.ballester.ext\\Documents\\Default Project",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8962,
+          "input": 57,
+          "output": 393,
+          "reasoning": 0,
+          "cache": {
+            "read": 8512,
+            "write": 0
+          }
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_066a1be00001x0Q1DNOoygc5jH",
+          "sessionID": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+          "messageID": "msg_066a1b111001rGTwEl0TB0G4HM",
+          "type": "step-start"
+        },
+        {
+          "id": "prt_066a1beba00131kBmYcwZGMliU",
+          "sessionID": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+          "messageID": "msg_066a1b111001rGTwEl0TB0G4HM",
+          "type": "reasoning",
+          "text": "The user wants me to continue a story they started. This is a creative writing request. I should continue the narrative they began.\n\nThe user wrote: \"I never expected to find a dragon in my backyard...\"\n\nI should continue this story in a creative and engaging way. This is a simple creative task that doesn't require any tools - just text generation.",
+          "time": {
+            "start": 1788428271290,
+            "end": 1788428273234
+          }
+        },
+        {
+          "id": "prt_066a1c656001Dsag2t55fTVhbF",
+          "sessionID": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+          "messageID": "msg_066a1b111001rGTwEl0TB0G4HM",
+          "type": "text",
+          "text": "I never expected to find a dragon in my backyard...\n\nIt was there, nestled between the rose bushes and the old oak tree, its iridescent scales catching the morning light. At first, I thought it was some kind of oversized lizard—a komodo dragon maybe, though those weren't native to this part of the country. But then it opened its eyes.\n\nThey were gold, ancient, and utterly sentient.\n\n\"Finally,\" it said, its voice like gravel rolling down a mountain. \"Someone who doesn't scream.\"\n\nI stood frozen, coffee mug halfway to my lips. The dragon—or drake, or wyrm, or whatever terminology was appropriate—watched me with patient amusement. Its scales shifted from emerald to sapphire as it shifted its weight.\n\n\"You're... talking,\" I managed, feeling inadequate.\n\n\"Obviously.\" It tilted its head. \"I've been sleeping here for three hundred years. Your garden is terrible, by the way. I expected better soil conditions.\"\n\nI lowered the mug. \"Three hundred years?\"\n\n\"Give or take.\" It yawned, revealing rows of teeth that could crush stone. \"The baron who owned this land promised me sanctuary. He was... more interesting than his descendants.\" The dragon glanced toward my house. \"Do you at least have decent tea?\"\n\nI stared at the impossible creature in my garden, the neighbors' sprinklers clicking on down the street, my phone buzzing with notifications from work.\n\n\"Yes,\" I said. \"I have tea.\"\n\nThe dragon smiled—a terrifying, wonderful thing—and rose to follow me inside.",
+          "time": {
+            "start": 1788428273238,
+            "end": 1788428278942
+          }
+        },
+        {
+          "id": "prt_066a1dca0001SURQoufPxs8JtR",
+          "sessionID": "ses_f995e4fadffeoRg1PNtBKHB2JI",
+          "messageID": "msg_066a1b111001rGTwEl0TB0G4HM",
+          "type": "step-finish",
+          "reason": "stop",
+          "cost": 0,
+          "tokens": {
+            "total": 8962,
+            "input": 57,
+            "output": 393,
+            "reasoning": 0,
+            "cache": {
+              "read": 8512,
+              "write": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
